@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(59, 47, 47);
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    font-size: large;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: bisque;
+}
+a:hover{
+    color: inherit;
+}
+.knjiga:hover{
+    transform: scale(1.5);
+    background-color: #4e4343;
+}
+.page-item.active .page-link{
+    background-color: #b29d9d;
+    border: rgba(46, 2, 2, 0.849);
+}
+.page-link{
+    color:rgba(46, 2, 2, 0.849);
+}
+.page-item:hover .page-link{
+    color: rgba(46, 2, 2, 0.849);
+}
+.page-item.disabled .page-link{
+    color: rgb(184, 181, 181) !important;
+}
+.admin{
+    background-image: url('../img/admin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.progress{
+    border-radius: 0px;
+    padding: 0 !important;
+    height: 17%;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.progress:first-child {
+     margin-top: 1% !important;
+}
+.progress:st-child { 
+    padding-bottom: 1% !important; 
+    margin-bottom: 1% !important;
+}   
+.progress-bar{
+    background-color: #1c3d6c;
+}  
+.anketa{
+    padding: calc(var(--bs-gutter-x) * 0) !important;
+}
+.bg-clr{
+    background-color: #ECF6FF;
+}
